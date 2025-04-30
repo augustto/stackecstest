@@ -1,0 +1,31 @@
+# Diretórios e arquivos padrão do Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+
+# Overrides locais
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plans
+*.tfplan
+
+# Output de comandos sensíveis
+.terraform.lock.hcl
+
+# Arquivos de backup do editor
+*~
+*.swp
+*.bak
+*.tmp
+
+# MacOS e outros sistemas
+.DS_Store
+Thumbs.db

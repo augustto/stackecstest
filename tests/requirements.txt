@@ -1,0 +1,4 @@
+pytest-env
+boto3
+botocore
+pytest
